@@ -2,5 +2,6 @@
 
 ## 適当にコードなどを書いてアップロードしていこう！！！
 
-url
-http://keizobookman.hatenablog.com/entry/2014/04/01/174207
+## 参考文献
+けいぞうのメモ帳  
+URL : http://keizobookman.hatenablog.com/entry/2014/04/01/174207  
