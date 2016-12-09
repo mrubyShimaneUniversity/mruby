@@ -1,3 +1,12 @@
+class Light
+    def initialize()
+        @a = 2
+    end
+
+    def main()
+        setup()
+    end
+
     def setup()
         $button1 = GNButton.new(10, 10, "onTouch1")
 
@@ -6,16 +15,15 @@
     end
 
     def onTouch1(param1, param2)
-        a = 2
-        if param1 == 1 && a == 2 then
+        if param1 == 1 && @a == 2 then
             gr_digitalWrite($PIN_LED0, param1)
-            a = 1
+            @a = 1
         end
-        if param1 == 0 && a == 1 then
+        if param1 == 0 && @a == 1 then
             gr_digitalWrite($PIN_LED0, param1)
-            a = 0
+            @a = 0
         end
-        if param1 == 1 && a == 0 then
+        if param1 == 1 && @a == 0 then
             gr_digitalWrite($PIN_LED3, param3)
         end
     end
@@ -35,3 +43,7 @@
 
     def loop()
     end
+end
+
+sample = Light.new()
+sample.main()
