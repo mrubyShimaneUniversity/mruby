@@ -19,15 +19,16 @@ def onTouch1(param1, param2)
 end
 
 def Timer(a)
-    sec = 3
+    sec = 2
     if a == 0 then
         while sec > 0 do
             gr_digitalWrite($PIN_LED3, 1)
             sec -= 1
         end
+        while sec <= 0 do
+            gr_digitalWrite($PON_LED3, 0)
+        end
     end
-    param1 = 0
-    gr_digitalWrite($PON_LED3, param1)
 end
 
 def loop()
