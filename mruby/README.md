@@ -28,4 +28,4 @@
 * ボタン２個表示も可能  
 
 ## 12/26  
-* undefined method ← methodを定義する順番のせいかもしれない(by渡邉)  
+* undefined method ← methodを定義する順番のせいかもしれない(鳥居君もやってた)  by 渡邉  
