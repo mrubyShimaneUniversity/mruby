@@ -21,9 +21,7 @@ def onTouch1(param1, param2)
 		gr_digitalWrite($PIN_LED0, param1) 
 		$state = 2
 		$time = 0
-	end
-
-	
+	end	
 end
 
 def onTouch2(param1, param2)
